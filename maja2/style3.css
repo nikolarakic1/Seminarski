@@ -1,0 +1,25 @@
+.container {
+    position: relative;
+    border: 2px solid #ccc; 
+    padding: 30px; 
+}
+
+.hidden {
+    display: none;
+}
+
+#show-more-btn {
+    position: absolute;
+    bottom: 5px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 5x 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#show-more-btn:hover {
+    background-color: #45a049;
+}
+

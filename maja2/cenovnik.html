@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+    <title>Stranica</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	</head>
+	
+
+<body>
+
+
+<div class="header">
+<div class="column">
+
+
+<div id="logo-i-social">
+    <img src="slike/logo.png" alt="error">
+<div id="logo-holder">
+
+
+
+</div>
+
+
+
+
+
+
+</div></div>
+<nav id="main-menu">
+    <a href="index2.html">Pocetna</a>
+    <a href="onama.html"> O nama</a>
+    <a href="cenovnik.html">Cenovnik</a>
+    <a href="galerija.html">Galerija</a>
+</nav>
+
+</div>
+<h1 style="color: burlywood; text-align:center; font-size:xx-large;">Coffee Shop</h1>
+
+
+
+</div>
+<table>
+    <thead>
+        <tr>
+            <th>Kafa</th>
+            <th>Cena</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="menu-item" data-item="Espresso">
+            <td>Espresso</td>
+            <td>$2.50</td>
+        </tr>
+        <tr class="menu-item" data-item="Cappuccino">
+            <td>Cappuccino</td>
+            <td>$3.00</td>
+        </tr>
+        <tr class="menu-item" data-item="Latte">
+            <td>Latte</td>
+            <td>$3.50</td>
+        </tr>
+        <tr class="menu-item" data-item="Americano">
+            <td>Americano</td>
+            <td>$1.50</td>
+        </tr>
+        <tr class="menu-item" data-item="Espresso Special">
+            <td>Espresso Special</td>
+            <td>$4.50</td>
+        </tr>
+        <tr class="menu-item" data-item="Turkish Coffe">
+            <td>Turkish Coffe</td>
+            <td>$0.50</td>
+        </tr>
+    </tbody>
+</table>
+
+
+<div id="selected-item" class="hidden">
+    <h2>Izabrali ste:</h2>
+    <p id="selected-item-name"></p>
+    <p id="selected-item-price"></p>
+</div>            
+  <button onclick="poruci()" style="background-color: rgb(180, 126, 65); border-radius: 5px;width: 150px;border-color: black; height: 30px; font-size: 15px;"><i>Poruci</button>
+
+    <label>
+        <input type="checkbox" id="feedback-checkbox">
+        Da li ste zadovoljni?
+    </label>
+    <button id="submit-button" onclick="recenzija()">Potvrdi</button>
+
+<script src="java.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
